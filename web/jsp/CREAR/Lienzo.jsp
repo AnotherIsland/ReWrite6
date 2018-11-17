@@ -10,6 +10,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico"/>
   <script type="text/javascript" src="/socket.io/socket.io.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="/src/css/materialize.css"  media="screen,projection"/>
@@ -21,21 +22,21 @@
 <div class="" name="header">
   <nav>
     <div class="nav-wrapper ">
-      <a href="../../index.html" class="brand-logo"><img class="responsive-img center-align" style="padding: 10px" src="/src/IMG/logoT.png"></a>
+      <a href="../../index.jsp" class="brand-logo"><img class="responsive-img center-align" style="padding: 10px" src="../../img/logoT.png"></a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a class=" text-accent-4" href="../Login.html">Cerrar Sesión</a></li>
-        <li><a class=" text-accent-4" href="../MISOBRAS/MisObras.html">Mis Obras</a></li>
-        <li><a class=" text-accent-4" href="../CREAR/Crear.html">Crear</a></li>
-        <li><a class=" text-accent-4" href="../AJUSTES/Ajustes.html">Ajustes</a></li>
-        <li><a class=" text-accent-4" href="../EVOLUCION/Evolucion.html">Evolución</a></li>
+        <li><a class=" text-accent-4" href="../Login.jsp">Cerrar Sesión</a></li>
+        <li><a class=" text-accent-4" href="../MISOBRAS/MisObras.jsp">Mis Obras</a></li>
+        <li><a class=" text-accent-4" href="../CREAR/Crear.jsp">Crear</a></li>
+        <li><a class=" text-accent-4" href="../AJUSTES/Ajustes.jsp">Ajustes</a></li>
+        <li><a class=" text-accent-4" href="../EVOLUCION/Evolucion.jsp">Evolución</a></li>
       </ul>
       <ul class="sidenav" id="mobile-demo">
-        <li><a class=" text-accent-4" href="../Login.html">Cerrar Sesión</a></li>
-        <li><a class=" text-accent-4" href="../MISOBRAS/MisObras.html">Mis Obras</a></li>
-        <li><a class=" text-accent-4" href="../CREAR/Crear.html">Crear</a></li>
-        <li><a class=" text-accent-4" href="../AJUSTES/Ajustes.html">Ajustes</a></li>
-        <li><a class=" text-accent-4" href="../EVOLUCION/Evolucion.html">Evolución</a></li>
+        <li><a class=" text-accent-4" href="../Login.jsp">Cerrar Sesión</a></li>
+        <li><a class=" text-accent-4" href="../MISOBRAS/MisObras.jsp">Mis Obras</a></li>
+        <li><a class=" text-accent-4" href="../CREAR/Crear.jsp">Crear</a></li>
+        <li><a class=" text-accent-4" href="../AJUSTES/Ajustes.jsp">Ajustes</a></li>
+        <li><a class=" text-accent-4" href="../EVOLUCION/Evolucion.jsp">Evolución</a></li>
       </ul>
     </div>
   </nav>
@@ -140,7 +141,7 @@
   </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script type="text/javascript" src="/src/JS/materialize.min.js"></script>
-<script type="text/javascript" src="/src/JS/init.js"></script>
+<script type="text/javascript" src="/src/js/materialize.min.js"></script>
+<script type="text/javascript" src="/src/js/init.js"></script>
 </body>
 </html>

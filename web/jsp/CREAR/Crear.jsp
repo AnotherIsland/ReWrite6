@@ -14,34 +14,35 @@ and open the template in the editor.
 <html>
     <head>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="../../CSS/materialize.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="../../css/materialize.css"  media="screen,projection"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>ReWrite - Crear</title>
     </head>
     <body >
-    <div class="" name="header">
-      <nav>
-        <div class="nav-wrapper ">
-          <a href="../../index.html" class="brand-logo"><img class="responsive-img center-align" style="padding: 10px" src="../../IMG/logoT.png"></a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a class=" text-accent-4" href="../Login.html">Cerrar Sesión</a></li>
-            <li><a class=" text-accent-4" href="../MISOBRAS/MisObras.html">Mis Obras</a></li>
-            <li><a class=" text-accent-4" href="../CREAR/Crear.html">Crear</a></li>
-            <li><a class=" text-accent-4" href="../AJUSTES/Ajustes.html">Ajustes</a></li>
-            <li><a class=" text-accent-4" href="../EVOLUCION/Evolucion.html">Evolución</a></li>
-          </ul>
-          <ul class="sidenav" id="mobile-demo">
-            <li><a class=" text-accent-4" href="../Login.html">Cerrar Sesión</a></li>
-            <li><a class=" text-accent-4" href="../MISOBRAS/MisObras.html">Mis Obras</a></li>
-            <li><a class=" text-accent-4" href="../CREAR/Crear.html">Crear</a></li>
-            <li><a class=" text-accent-4" href="../AJUSTES/Ajustes.html">Ajustes</a></li>
-            <li><a class=" text-accent-4" href="../EVOLUCION/Evolucion.html">Evolución</a></li>
-          </ul>
+        <div class="" name="header">
+            <nav>
+                <div class="nav-wrapper ">
+                    <a href="../../index.jsp" class="brand-logo"><img class="responsive-img center-align" style="padding: 10px" src="../../img/logoT.png"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class=" text-accent-4" href="../Login.jsp">Cerrar Sesión</a></li>
+                        <li><a class=" text-accent-4" href="../MISOBRAS/MisObras.jsp">Mis Obras</a></li>
+                        <li><a class=" text-accent-4" href="../CREAR/Crear.jsp">Crear</a></li>
+                        <li><a class=" text-accent-4" href="../AJUSTES/Ajustes.jsp">Ajustes</a></li>
+                        <li><a class=" text-accent-4" href="../EVOLUCION/Evolucion.jsp">Evolución</a></li>
+                    </ul>
+                    <ul class="sidenav" id="mobile-demo">
+                        <li><a class=" text-accent-4" href="../Login.jsp">Cerrar Sesión</a></li>
+                        <li><a class=" text-accent-4" href="../MISOBRAS/MisObras.jsp">Mis Obras</a></li>
+                        <li><a class=" text-accent-4" href="../CREAR/Crear.jsp">Crear</a></li>
+                        <li><a class=" text-accent-4" href="../AJUSTES/Ajustes.jsp">Ajustes</a></li>
+                        <li><a class=" text-accent-4" href="../EVOLUCION/Evolucion.jsp">Evolución</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-      </nav>
-    </div>
         <div class="container">
 
             <div class="row">
@@ -53,47 +54,47 @@ and open the template in the editor.
                     </div>
                     <div class="row">
                         <div class="section grey col s10 m10 l10 xl10 offset-s1 offset-l1 offset-m1 offset-xl1" >
-                          <div class="col s10 m4 l3 xl3">
-                            <br><br>
-                            <div >
-                              <div class="card z-depth-3">
-                                <div class="card-image">
-                                  <img src="../../IMG/lienzo.png">
-                                  <a class="btn-floating halfway-fab waves-effect waves-light " href="Lienzo.html"><i class="material-icons">add</i></a>
+                            <div class="col s10 m4 l3 xl3">
+                                <br><br>
+                                <div >
+                                    <div class="card z-depth-3">
+                                        <div class="card-image">
+                                            <img src="../../img/lienzo.png">
+                                            <a class="btn-floating halfway-fab waves-effect waves-light " href="Lienzo.jsp"><i class="material-icons">add</i></a>
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="card-title">Lienzo en blanco</span>
+                                            <p></p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card-content">
-                                  <span class="card-title">Lienzo en blanco</span>
-                                  <p></p>
+                            </div>
+                            <div class="col s10 m4 l3 xl3 offset-xl2 offset-l2 ">
+                                <h5>Textos Científicos</h5>
+                                <div class="card z-depth-3">
+                                    <div class="card-image">
+                                        <img src="../../img/plantilla.png">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light " href="Articulo.jsp"><i class="material-icons">add</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title">Artículo de investigación</span>
+                                        <p></p>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                          </div>
-                          <div class="col s10 m4 l3 xl3 offset-xl2 offset-l2 ">
-                            <h5>Textos Científicos</h5>
-                            <div class="card z-depth-3">
-                              <div class="card-image">
-                                <img src="../../IMG/plantilla.png">
-                                <a class="btn-floating halfway-fab waves-effect waves-light " href="Articulo.html"><i class="material-icons">add</i></a>
-                              </div>
-                              <div class="card-content">
-                                <span class="card-title">Artículo de investigación</span>
-                                <p></p>
-                              </div>
+                            <div class="col s10 m4 l3 xl3">
+                                <br><br>
+                                <div class="card z-depth-3">
+                                    <div class="card-image">
+                                        <img src="../../img/plantilla.png">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light " href="Resumen.jsp"><i class="material-icons">add</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title">Resumen</span>
+                                        <p></p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="col s10 m4 l3 xl3">
-                            <br><br>
-                            <div class="card z-depth-3">
-                              <div class="card-image">
-                                <img src="../../IMG/plantilla.png">
-                                <a class="btn-floating halfway-fab waves-effect waves-light " href="Resumen.html"><i class="material-icons">add</i></a>
-                              </div>
-                              <div class="card-content">
-                                <span class="card-title">Resumen</span>
-                                <p></p>
-                              </div>
-                            </div>
-                          </div>
                         </div>
                     </div>
 
@@ -103,8 +104,8 @@ and open the template in the editor.
                             <div class="col s10 m4 l3 xl3">
                                 <div class="card z-depth-3">
                                     <div class="card-image">
-                                        <img src="../../IMG/plantilla.png">
-                                        <a class="btn-floating halfway-fab waves-effect waves-light " href="Lirica.html"><i class="material-icons">add</i></a>
+                                        <img src="../../img/plantilla.png">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light " href="Lirica.jsp"><i class="material-icons">add</i></a>
                                     </div>
                                     <div class="card-content">
                                         <span class="card-title">Lírica</span>
@@ -115,8 +116,8 @@ and open the template in the editor.
                             <div class="col s10 m4 l3 xl3">
                                 <div class="card z-depth-3">
                                     <div class="card-image">
-                                        <img src="../../IMG/plantilla.png">
-                                        <a class="btn-floating halfway-fab waves-effect waves-light " href="Narrativo.html"><i class="material-icons">add</i></a>
+                                        <img src="../../img/plantilla.png">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light " href="Narrativo.jsp"><i class="material-icons">add</i></a>
                                     </div>
                                     <div class="card-content">
                                         <span class="card-title">Narrativo</span>
@@ -127,8 +128,8 @@ and open the template in the editor.
                             <div class="col s10 m4 l3 xl3">
                                 <div class="card z-depth-3">
                                     <div class="card-image">
-                                        <img src="../../IMG/plantilla.png">
-                                        <a class="btn-floating halfway-fab waves-effect waves-light " href="Dramatico.html"><i class="material-icons">add</i></a>
+                                        <img src="../../img/plantilla.png">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light " href="Dramatico.jsp"><i class="material-icons">add</i></a>
                                     </div>
                                     <div class="card-content">
                                         <span class="card-title">Dramático</span>
@@ -139,8 +140,8 @@ and open the template in the editor.
                             <div class="col s10 m4 l3 xl3">
                                 <div class="card z-depth-3">
                                     <div class="card-image">
-                                        <img src="../../IMG/plantilla.png">
-                                        <a class="btn-floating halfway-fab waves-effect waves-light " href="Ensayo.html"><i class="material-icons">add</i></a>
+                                        <img src="../../img/plantilla.png">
+                                        <a class="btn-floating halfway-fab waves-effect waves-light " href="Ensayo.jsp"><i class="material-icons">add</i></a>
                                     </div>
                                     <div class="card-content">
                                         <span class="card-title">Ensayo</span>
@@ -153,8 +154,8 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript" src="../../JS/materialize.min.js"></script>
-    <script type="text/javascript" src="../../JS/init.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript" src="../../js/materialize.min.js"></script>
+        <script type="text/javascript" src="../../js/init.js"></script>
     </body>
 </html>
