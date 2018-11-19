@@ -43,7 +43,7 @@ function newRef(ref){
   let inputs= [];
   var inputN = null;
 
-  for(let i = 1; i<=6; i++){
+  for(let i = 1; i<=7; i++){
     inputN = document.createElement('input');
     inputs[i] = inputN;
     inputs[i].type = 'text';
@@ -74,6 +74,8 @@ function newRef(ref){
   inputs[1].id = 'autor';
   inputs[2].id = 'titulo';
   inputs[3].id = 'anio';
+  inputs[7].id = 'tipo';
+  inputs[7].setAttribute('hidden','true');
 
   //Para validar inputs
   inputs[1].setAttribute('onkeypress','validap();');
@@ -81,6 +83,7 @@ function newRef(ref){
   inputs[3].setAttribute('onkeypress','validaNum();validaAnio(this);');
   inputs[3].setAttribute('maxlength','4');
   inputs[4].setAttribute('onkeypress','validap();');
+  
 
   if(ref.value == '1'){//Si es referencia bibliografica
     inputs[4].setAttribute('placeholder','Editorial');
@@ -94,6 +97,7 @@ function newRef(ref){
     inputs[6].id =  'paginas';
     inputs[5].setAttribute('onkeypress','validap();');
     inputs[6].setAttribute('onkeypress','validaNum();');
+    inputs[7].value = 'biblio';
   }else if(ref.value == '2'){//Si es referencia web
     inputs[4].setAttribute('placeholder','Sitio Web');
     inputs[5].setAttribute('placeholder','Fecha de consulta');
@@ -106,11 +110,12 @@ function newRef(ref){
     inputs[6].id = 'URL';
     inputs[5].type = 'text';
     inputs[6].type = 'URL';
+    inputs[7].value = 'web';
   }
 
   //Añadiendo al div de referencias
   refer.appendChild(h7);
-  for(let i = 1; i<=6; i++){
+  for(let i = 1; i<=7; i++){
     refer.appendChild(inputs[i]);
   }
   refer.appendChild(input7);
@@ -124,7 +129,11 @@ function newRef(ref){
 }
 function agregaRef(submit) {
   let refe = document.createElement('p');
-  let autor = document.getElementsByName('autor');
+  let autor = document.getElementById('autor');
+  let titulo = document.getElementById('titulo');
+  let anio = document.getElementById('anio');
+ 
+    
   let inputs = document.getElementsByClassName('input-field oculto refi');
 
   //Primero invalida campos vacíos

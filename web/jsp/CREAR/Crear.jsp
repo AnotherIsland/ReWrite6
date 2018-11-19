@@ -48,7 +48,7 @@ and open the template in the editor.
             <div class="row">
                 <div class="col s12 m12 l12 xl12">
                     <div class="section white col s10 m10 l10 xl10 offset-s1 offset-l1 offset-m1 offset-xl1 z-depth-3" >
-                        <h3>Crear</h3>
+                        <h3 class="center">Crear</h3>
                         <span class="grey-text">Realiza todos los escritos que imagines, cuenta tus historias, obtén un diez en tu ensayo.</span>
                         <span class="black-text"><p>Para comenzar, elige una plantilla o usa un lienzo en blanco:</p></span>
                     </div>
