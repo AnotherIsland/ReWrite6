@@ -66,7 +66,7 @@
                     <div class="col s5 l5 m5 xl5 ">
                         <div class="">
                             <h3>Registro</h3>
-                            <form action="" method=""  id="formR" name="formR">
+                            <form method="post" action="../Registroo"  id="formR" name="formR">
                                 <div class="row">
                                     <div class="input-field col s12">
                                         <input id="email" type="email" name="email" class="validate" onkeypress="valCorreo();">

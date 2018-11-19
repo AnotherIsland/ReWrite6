@@ -4,7 +4,18 @@
         <servlet-name>Inicio</servlet-name>
         <jsp-file>/ReWrite/index.jsp</jsp-file>
     </servlet>
-
+    <servlet>
+        <servlet-name>Registro</servlet-name>
+        <servlet-class>controller.Registro</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Registroo</servlet-name>
+        <servlet-class>controller.Registroo</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>controller.Login</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Inicio</servlet-name>
         <url-pattern>/ReWrite/index.jsp</url-pattern>
@@ -16,6 +27,18 @@
     <servlet-mapping>
         <servlet-name>algo1</servlet-name>
         <url-pattern>/algo1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Registro</servlet-name>
+        <url-pattern>/Registro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Registroo</servlet-name>
+        <url-pattern>/Registroo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -42,7 +42,7 @@
       <div class="col s5 l5 m5 xl5 ">
         <div class="">
           <h3>Inicia Sesión</h3>
-          <form action="" method="" name="formI" id="formI">
+          <form action="../Login" method="post" name="formI" id="formI">
             <div class="row">
               <div class="input-field col s12">
                 <input id="username" type="text" name="username" class="validate" onkeypress="valCorreo();">
